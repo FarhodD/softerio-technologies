@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Averta-Bold";
+  src: url(../fonts/Averta/Averta\ Cyrillic\ Bold.otf);
+}
+
+@font-face {
+  font-family: "Averta-SemiBold";
+  src: url(../fonts/Averta/Averta\ Cyrillic\ SemiBold.otf);
+}
+
+@font-face {
+  font-family: "Averta-Regular";
+  src: url(../fonts/Averta/Averta\ Cyrillic\ Regular.otf);
+}
+
+@font-face {
+  font-family: "Averta-Light";
+  src: url(../fonts/Averta/Averta\ Cyrillic\ Light.otf);
+}
+
+body {
+  /* 
+  font-family: "Averta-Bold";
+  font-family: "Averta-Light";
+  font-family: "Averta-SemiBold"; 
+  */
+  font-family: "Averta-Regular";
+
+}
