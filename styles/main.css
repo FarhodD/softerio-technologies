@@ -1,0 +1,77 @@
+/* HEADER */
+.header {
+  padding: 20px 0;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.logo__link {
+  margin-right: 51px;
+}
+
+.nav {
+  margin-right: 50px;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+  padding-left: 0;
+}
+
+.menu__item {}
+
+.menu__link {
+  font-size: 16px;
+  line-height: 148.6%;
+  color: #000;
+}
+
+.active__link {
+  color: #4386FF;
+}
+
+.contacts__blocks {
+  display: flex;
+  gap: 22px;
+}
+
+.contacts__block {}
+
+.contacts__block:nth-child(2) {
+  display: flex;
+  gap: 11px;
+}
+
+.contacts__block-tel {
+  font-family: "Averta-SemiBold";
+  display: block;
+  font-size: 20px;
+  line-height: 148.6%;
+  color: #4386FF;
+}
+
+.contacts__block-mail {
+  color: rgba(0, 0, 0, 0.41);
+  font-size: 16px;
+  line-height: 148.6%;
+}
+
+.contacts__block-soc__net {
+  background: #4386FF;
+  height: 48px;
+  width: 48px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+}
+
+.contacts__block-soc__net:hover {
+  opacity: .8;
+}
+

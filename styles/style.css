@@ -25,5 +25,18 @@ body {
   font-family: "Averta-SemiBold"; 
   */
   font-family: "Averta-Regular";
+}
 
+.container {
+  max-width: 1340px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
