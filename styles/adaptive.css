@@ -1,0 +1,146 @@
+@media (max-width: 1320px) {
+  .header__inner {
+    justify-content: space-between;
+  }
+
+  .nav {
+    margin-right: 0;
+  }
+
+  .logo__link {
+    margin-right: 0;
+  }
+
+  .contacts__block:nth-child(2) {
+    display: none;
+  }
+
+  /* MAIN__SECTION */
+  .main__section {
+    overflow: hidden;
+  }
+
+  .white__ball {
+    width: 150px;
+  }
+
+  .blue__ball {
+    width: 80px;
+  }
+
+  .blue__ball-small {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1115px) {
+  .contacts__block:nth-child(1) {
+    display: none;
+  }
+
+  .logo__link svg {
+    width: 220px;
+  }
+
+  /* MAIN__SECTION */
+  .main__section-inner {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .main__section-title {
+    width: 100%;
+  }
+}
+
+@media (max-width: 880px) {
+
+  /* BURGER */
+  .burger__menu {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 2%;
+    top: 30px;
+    gap: 8px 0;
+    background-color: #4386FF;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .burger__line {
+    height: 3px;
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+  }
+
+  .burger__line:nth-child(1),
+  .burger__line:nth-child(3) {
+    transition: .7s;
+  }
+
+  .burger__menu.active .burger__line:nth-child(1) {
+    transform: rotate(45deg) translate(10px, 8px);
+  }
+
+  .burger__menu.active .burger__line:nth-child(2) {
+    display: none;
+
+  }
+
+  .burger__menu.active .burger__line:nth-child(3) {
+    transform: rotate(-45deg) translate(0px, 2px);
+  }
+
+  .nav {
+    /* position: relative; */
+  }
+
+  .menu {
+    flex-direction: column;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    padding: 20px;
+    visibility: hidden;
+  }
+
+  .vis__submenu {
+    visibility: visible;
+    left: 0;
+    top: 105px;
+    width: 100%;
+  }
+
+  /* MAIN__SECTION */
+  .main__section-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .main__section-list {
+    width: 100%;
+  }
+
+  .main__section-btn {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  /* HEADER */
+  .logo__link svg {
+    width: 190px;
+  }
+
+  .main__section-item {
+    font-size: 16px;
+  }
+}

@@ -18,6 +18,16 @@
   src: url(../fonts/Averta/Averta\ Cyrillic\ Light.otf);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
 body {
   /* 
   font-family: "Averta-Bold";
@@ -33,10 +43,20 @@ body {
   margin: 0 auto;
 }
 
+.wrapper__container {
+  max-width: 1733px;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
 }
 
 li {
   list-style: none;
+}
+
+button {
+  border: none;
+  background: transparent;
 }
