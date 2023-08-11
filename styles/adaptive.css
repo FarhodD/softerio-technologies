@@ -32,6 +32,16 @@
     display: none;
   }
 
+  /* OUR__SERVICES */
+  .our__services-cards {
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+  }
+
+  .our__services-top {
+    gap: 30px;
+  }
+
 }
 
 @media (max-width: 1115px) {
@@ -132,9 +142,29 @@
     flex-direction: column;
     align-items: center;
   }
+
+  /* OUR__SERVICES */
+  .our__services-cards {
+    grid-template-columns: repeat(1, 400px);
+  }
+
+  .our__services-top {
+    flex-direction: column;
+  }
+
+  .our__services-text {
+    text-align: center;
+  }
+
+  /*  */
+  .dev__stages-cards {
+    justify-content: center;
+    gap: 36px;
+  }
 }
 
 @media (max-width: 600px) {
+
   /* HEADER */
   .logo__link svg {
     width: 190px;
@@ -143,4 +173,36 @@
   .main__section-item {
     font-size: 16px;
   }
+
+  /* OUR__SERVICES */
+  .our__services-cards {
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  .our__services-text {
+    text-align: center;
+  }
+
+  .our__services-top {
+    gap: 17px;
+    margin-bottom: 23px;
+  }
+
+  .our__services-title {
+    font-size: 32px;
+  }
+
+  .our__services-cards {
+    gap: 10px;
+  }
+
+  /*  */
+  .dev__stages-title {
+    font-size: 32px;
+    margin-bottom: 66px;
+  }
+
+  .dev__stages-btn {
+    height: 73px;
+  } 
 }

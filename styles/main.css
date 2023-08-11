@@ -204,3 +204,151 @@
   top: 120px;
   right: 20px;
 }
+
+/* OUR__SERVICES */
+.our__services {
+  padding: 90px 0 120px 0;
+  background: #FEF4FF;
+}
+
+.our__services-inner {}
+
+.our__services-top {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 65px;
+}
+
+.our__services-title {
+  font-family: "Averta-Bold";
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 103.1%;
+}
+
+.our__services-text {
+  font-family: "Averta-Regular";
+  max-width: 424px;
+}
+
+.our__services-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 410px);
+  gap: 30px;
+}
+
+.our__services-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 38px 0;
+}
+
+.our__services-card-top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 27px;
+  max-width: 264px;
+  margin-bottom: 23px;
+}
+
+.our__services-card--icon {}
+
+.our__services-card--title {
+  text-align: center;
+}
+
+.our__services-card--list {
+  display: flex;
+  gap: 15px;
+
+}
+
+.our__services-card--item {
+  padding: 10px 25px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+}
+
+/* DEV__STAGES */
+.dev__stages {
+  padding: 60px 0;
+  border-radius: 20px;
+  background: #3980FF;
+
+}
+
+.dev__stages-inner {}
+
+.dev__stages-title {
+  font-family: "Averta-SemiBold";
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 103.1%;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 88px;
+}
+
+.dev__stages-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 52px;
+}
+
+.dev__stages-card {
+  max-width: 300px;
+  color: #fff;
+}
+
+.dev__stages-card--bg-container {
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  height: 130px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.dev__stages-card--about {}
+
+.dev__stages-card--about-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.dev__stages-card--about-num {
+  font-family: "Averta-SemiBold";
+  background-color: #0C4AB3;
+  padding: 3px 13px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.dev__stages-card--about-name {}
+
+.dev__stages-card--about-text {}
+
+.dev__stages-btn {
+  font-family: "Averta-SemiBold";
+  color: #fff;
+  width: 300px;
+  height: 130px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 148.6%;
+  border-radius: 15px;
+  background: #EB5757;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.dev__stages-btn:hover {
+  opacity: .85;
+}
