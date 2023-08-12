@@ -22,8 +22,6 @@
   padding-left: 0;
 }
 
-.menu__item {}
-
 .menu__link {
   font-size: 16px;
   line-height: 148.6%;
@@ -38,8 +36,6 @@
   display: flex;
   gap: 22px;
 }
-
-.contacts__block {}
 
 .contacts__block:nth-child(2) {
   display: flex;
@@ -211,8 +207,6 @@
   background: #FEF4FF;
 }
 
-.our__services-inner {}
-
 .our__services-top {
   display: flex;
   align-items: center;
@@ -256,8 +250,6 @@
   margin-bottom: 23px;
 }
 
-.our__services-card--icon {}
-
 .our__services-card--title {
   text-align: center;
 }
@@ -281,8 +273,6 @@
   background: #3980FF;
 
 }
-
-.dev__stages-inner {}
 
 .dev__stages-title {
   font-family: "Averta-SemiBold";
@@ -314,8 +304,6 @@
   margin-bottom: 25px;
 }
 
-.dev__stages-card--about {}
-
 .dev__stages-card--about-title {
   display: flex;
   align-items: center;
@@ -330,10 +318,6 @@
   border-radius: 50%;
   font-size: 20px;
 }
-
-.dev__stages-card--about-name {}
-
-.dev__stages-card--about-text {}
 
 .dev__stages-btn {
   font-family: "Averta-SemiBold";
@@ -351,4 +335,203 @@
 
 .dev__stages-btn:hover {
   opacity: .85;
+}
+
+/* PRICES */
+.prices {
+  padding: 50px 0;
+  background: #FEF4FF;
+}
+
+.prices__inner {
+  position: relative;
+}
+
+.prices__inner-bg1 {
+  position: absolute;
+  top: 100px;
+  width: 96px;
+  height: 96px;
+  z-index: 0;
+}
+
+.prices__inner-bg2 {
+  position: absolute;
+  bottom: -200px;
+  right: 0;
+  z-index: 2;
+}
+
+
+.prices__title {
+  font-family: "Averta-SemiBold";
+  font-size: 55px;
+  font-style: normal;
+  max-width: 940px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 103.1%;
+  margin-bottom: 40px;
+}
+
+.prices__text {
+  margin: 0 auto;
+  max-width: 855px;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 128.1%;
+  color: rgba(0, 0, 0, 0.69);
+  margin-bottom: 56px;
+}
+
+.prices__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.prices__card {
+  position: relative;
+  padding: 40px 72px;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.09), 0px 1px 1px 0px rgba(0, 0, 0, 0.09), 0px 2px 2px 0px rgba(0, 0, 0, 0.08), 0px 5px 3px 0px rgba(0, 0, 0, 0.05), 0px 9px 4px 0px rgba(0, 0, 0, 0.01), 0px 14px 4px 0px rgba(0, 0, 0, 0.00);
+}
+
+
+.prices__card-icon {
+  position: absolute;
+  top: 0;
+  right: 72px;
+}
+
+.prices__card-top {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 34px;
+}
+
+.prices__card-top--img {}
+
+.prices__card-top--img img {
+  width: 30px;
+}
+
+.prices__card-top--name {}
+
+.prices__card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin-bottom: 50px;
+}
+
+.prices__card-item {
+  display: flex;
+  gap: 40px;
+}
+
+.prices__card-item--text {
+  width: 206px;
+}
+
+.prices__card-item--icon {}
+
+.prices__card-price {
+  font-family: "Averta-SemiBold";
+  text-align: center;
+  font-size: 24px;
+  line-height: 128.1%;
+  margin-bottom: 13px;
+}
+
+.prices__card-btn--container {}
+
+.prices__card-btn {
+  font-family: "Averta-SemiBold";
+  font-size: 17px;
+  line-height: 148.6%;
+  width: 268px;
+  height: 73px;
+  border-radius: 10px;
+  border: 1px solid #3980FF;
+  color: #3980FF;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.prices__card-btn:hover {
+  background: #3980FF;
+  color: #fff;
+}
+
+/*  */
+.advantages {
+  padding: 100px 0;
+}
+
+.advantages__inner {
+  position: relative;
+}
+
+.advantages-bg {
+  position: absolute;
+  left: 10%;
+  z-index: -2;
+}
+
+.advantages-bg2 {
+  position: absolute;
+  bottom: 0;
+}
+
+.advantages__blocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.advantages__block {
+}
+
+.advantages__title {
+  font-family: "Averta-SemiBold";
+  font-size: 55px;
+  line-height: 103.1%;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.advantages__item {
+  margin-bottom: 66px;
+}
+
+.advantages__item-top {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  margin-bottom: 20px;
+}
+
+.advantages__item-top--num {
+  width: 34px;
+  height: 34px;
+  background: #0C4AB3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.advantages__item-top--name {
+  font-family: "Averta-SemiBold"; 
+  font-size: 24px;
+  line-height: 128.1%;
+}
+.advantages__item-text {
+  font-family: "Averta-Light";
 }
