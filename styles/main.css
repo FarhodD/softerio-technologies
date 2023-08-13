@@ -338,7 +338,7 @@
 }
 
 /* PRICES */
-.prices {
+.prices__section {
   padding: 50px 0;
   background: #FEF4FF;
 }
@@ -494,8 +494,7 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.advantages__block {
-}
+.advantages__block {}
 
 .advantages__title {
   font-family: "Averta-SemiBold";
@@ -528,10 +527,243 @@
 }
 
 .advantages__item-top--name {
-  font-family: "Averta-SemiBold"; 
+  font-family: "Averta-SemiBold";
   font-size: 24px;
   line-height: 128.1%;
 }
+
 .advantages__item-text {
   font-family: "Averta-Light";
+}
+
+/*  */
+
+.order {
+  padding: 50px 0;
+  background-color: #FEF4FF;
+}
+
+.order__title {
+  font-family: "Averta-SemiBold";
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 103.1%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.order-bg {
+  position: absolute;
+  right: 72px;
+  top: -100px;
+}
+
+.order__inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+}
+
+.project__budget {}
+
+.project__budget-title {
+  font-family: "Averta-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 128.1%;
+  margin-bottom: 26px;
+}
+
+.project__budget-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.project__budget-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 315px;
+  height: 106px;
+  border-radius: 93px;
+  border: 1px solid #3980FF;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.project__budget-item:hover {
+  background-color: #3980FF;
+  color: #fff;
+}
+
+.contacts {}
+
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.contacts__title {
+  font-family: "Averta-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 128.1%;
+  margin-bottom: 35px;
+}
+
+textarea {
+  resize: none;
+  margin-bottom: 20px;
+}
+
+textarea,
+input {
+  font-family: "Averta-Regular";
+  max-width: 471px;
+  padding: 22px 34px;
+  border-radius: 10px;
+  border: 1px solid rgba(172, 172, 172, 0.88);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 128.1%;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid #3980FF;
+}
+
+
+.contacts__btn {
+  font-family: "Averta-SemiBold";
+  font-size: 17px;
+  line-height: 148.6%;
+  padding: 24px 43px;
+  border-radius: 10px;
+  border: 1px solid #3980FF;
+  background: #3980FF;
+  color: #fff;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.contacts__btn:hover {
+  opacity: .9;
+}
+
+
+/* DROPDOWN */
+/* .change__languages {
+  position: relative;
+  width: 170px;
+  color: #fff;
+}
+
+.change__languages-select {
+  border: 1px solid #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.change__languages-list {
+  position: absolute;
+  top: 50px;
+  padding: 5px;
+  background-color: #2b2a2a;
+  border-radius: 5px;
+  width: 100%;
+  opacity: 0;
+  display: none;
+}
+
+.change__languages-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: .5s;
+  border-radius: 5px;
+}
+
+.change__languages-item:hover {
+  background-color: #4f4f4f;
+}
+
+.change__languages-list--open {
+  display: block;
+  opacity: 1;
+} */
+
+.prices {
+  position: relative;
+  width: 100%;
+  display: none;
+}
+
+.prices__select {
+  border-radius: 10px;
+  border: 1px solid #3980FF;
+  padding: 20px 34px 20px 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.price__selected {
+  font-family: "Averta-SemiBold";
+  font-size: 16px;
+  line-height: 128.1%;
+}
+
+.price__arr {
+  transition: .3s;
+}
+
+.price__arr--rotate {
+  transform: rotate(180deg);
+}
+
+.prices__list {
+  position: absolute;
+  top: 70px;
+  padding: 10px;
+  background-color: transparent;
+  width: 100%;
+  background-color: #3980FF;
+  border-radius: 10px;
+  /* border: 1px solid #3980FF; */
+  opacity: 0;
+  display: none;
+}
+
+.prices__list-open {
+  display: block;
+  opacity: 1;
+}
+
+.prices__list-item {
+  padding: 10px;
+  transition: .5s;
+  cursor: pointer;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+/*  */
+.footer {
+  padding: 50px 0;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
 }
